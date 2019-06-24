@@ -1,7 +1,7 @@
 instructor: 
   name: Matthew Turk
   email: mjturk@illinois.edu
-  office: 106 Astronomy
+  office: 222 iSchool
   office_hours: By appointment
 tas:
   -
@@ -9,25 +9,20 @@ tas:
     email: Email1
     office: ZZZ
     office_hours: XYZ
-  -
-    name: Name2
-    email: email2
-    office: Office2
-    office_hours: OfficeHours2
 course:
-  name: COURSENAME
-  number: COURSENUM
-  semester: SEMESTER, YEAR
-  location: LOCATION
-  time: DAYTIME
+  name: Data Visualization
+  number: IS590DV
+  semester: Fall, 2019
+  location: LIS 126
+  time: Wed 10AM-12:50PM
   credit_hours: Z
 urls:
   -
     name: Jupyterhub
-    url: https://example.com/
+    url: https://jupyterhub.ischool.illinois.edu/
   -
     name: Slack
-    url: https://example.com/
+    url: 
   - 
     name: Moodle
-    url: https://example.com/
+    url: https://learn.illinois.edu/course/view.php?id=38928
