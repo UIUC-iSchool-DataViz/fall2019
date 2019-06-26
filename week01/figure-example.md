@@ -3,10 +3,10 @@ title: Example Figure
 layout: figure-vega-lite
 ---
 
-{
+{ 
   "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
   "data": {
-      "url": "yt_repo.json"
+    "url": "ABSOLUTE/yt_repo.json"
   },
   "transform": [
       {
