@@ -6,7 +6,7 @@ layout: figure-vega-lite
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
   "data": {
-      "url": "../data/yt_repo.json"
+      "url": "yt_repo.json"
   },
   "transform": [
       {
