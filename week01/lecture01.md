@@ -42,7 +42,7 @@ On a piece of paper:
 * What are the most memorable movies you saw over the last year?
 * Do you prefer cats or dogs?
 * How would you quantify your experience in visualization?
-* How many people are at each table in this classroom?
+* How many people are in each row in this classroom?
 
 notes:
 We're going to use these pieces of data to explore how we might approach
@@ -55,13 +55,20 @@ about these types of data, and how we approach visualizing them.
 
 ---
 
-Break into groups based on your numbers, and visualize the results by whatever method you choose: by hand, by computer, or otherwise.
+Break into groups based on your numbers, and visualize the results by whatever
+method you choose: by hand, by computer, or otherwise.
 
 Affix to or inscribe upon your sheet of paper.
 
 notes:
 Don't get used to sitting in the same seat in this room!  We're going to move
 around and try things, starting with hand-crafting some visualizations.
+
+---
+
+## Intake Survey
+
+[forms.gle/ayFAcBrP9yt9rgCA6](https://forms.gle/ayFAcBrP9yt9rgCA6)
 
 ---
 
