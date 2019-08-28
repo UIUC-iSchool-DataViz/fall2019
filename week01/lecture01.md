@@ -5,22 +5,33 @@ layout: lecture
 <!-- .slide: class="titleslide" -->
 
 # Data Visualization
+
 <div style="height: 6.0em;"></div>
+
 ## Matthew Turk
-## Fall 2018
+## Fall 2019
+
+---
+
+## Land Acknowledgment
+
+Please see the Land Acknowledgment in the Syllabus.
+
+[More information can be found on the Chancellor's
+Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 ---
 <!-- .slide: class="vertical_center" -->
 ## Basics
 
-10AM-12:50PM Wednesdays, 2101 Everitt Elec & Comp Engr Lab
+10AM-12:50PM Wednesdays, 126 LIS at 501 E Daniel
 
 Matthew Turk - `mjturk@illinois.edu`
-Office Hours: Friday 2-4, LIS 222
+Office Hours: Tuesday 11-1, 505 E Green St Room 108
 
-TA Si Chen - `sichen12@illinois.edu`
+TA Naveen Sathiyanathan `nms9@illinois.edu`
 
-https://uiuc-ischool-dataviz.github.io/fall2018/
+https://uiuc-ischool-dataviz.github.io/fall2019/
 
 ---
 
@@ -54,27 +65,43 @@ around and try things, starting with hand-crafting some visualizations.
 
 ---
 
-## Intake Survey
+## Viz Systems We Will Cover
 
-goo.gl/JPksHn
+ * [vega-lite](https://vega.github.io/vega-lite)
+ * [D3](https://d3js.org/)
+ * [bqplot](https://bqplot.readthedocs.io)
+ * [matplotlib](https://matplotlib.org)
+
+There'll be a few more along the way.
 
 notes:
-This survey will help guide the level of instruction during the course.
-Although we will be going over many of these topics, by knowing how well you
-are already acquainted with them I can guide the instruction to greater or
-lesser detail.
+This class is not meant to teach you a given tool, but instead a way of
+thinking about using visualization tools.  These tools are chosen because of
+what they represent, not because they are the only paths to success.
 
 ---
 
+## Tools We Will Use
+
+ * [GitHub](https://github.com/)
+ * [Iodide](https://iodide.io/)
+ * [Observable](https://observablehq.com/)
+ * [Jupyter](https://jupyter.org/)
+ * [Glitch](https://glitch.com/)
+ * [Colaboratory](https://colab.research.google.com/)
+
+notes:
+These tools represent many different ways to explore and visualize data.  We'll
+emphasize using services, rather than local installations.
+
+---
+
+
 ## Syllabus
 
- * Week 1 (Aug 29): Introduction, syllabus, examples, and some basics
- * Week 2 (Sep 5): Operational palette, structured python, and files
- * Week 3 (Sep 12): Quantitative plots, plot components
- * Week 4 (Sep 19): Histograms and distributions
- * Week 5 (Sep 26): R and ggplot
- * Week 6 (Oct 3): Images: color, colormaps
- * Week 7 (Oct 10): Comparisons between datasets
+ * Weeks 1-5: Basics of visualization
+ * Weeks 6-10: Interactivity and Viz Types
+ * Weeks 11-15: Platforms and dimensionality
 
 notes:
 This is a rough syllabus!  These are many of the topics we will cover, but
@@ -82,22 +109,37 @@ based on how the course proceeds and how folks respond, we may shorten or
 lengthen different topics.
 
 The organization here is designed to start out slow, dealing with how to
-program python for visualization, understanding how data is laid out, which
-operations we can apply to that data, and then moving on to representing data
-in different ways.
+program python and javascript for visualization, understanding how data is laid
+out, which operations we can apply to that data, and then moving on to
+representing data in different ways.
 
 ---
 
-## Syllabus
+## Weeks 1-5
 
- * Week 8 (Oct 17): Comparisons between different datasets
- * Week 9 (Oct 24): Network visualization
- * Week 10 (Oct 31): Principles of interactive visualization
- * Week 11 (Nov 7): Interactive visualization with Python
- * Week 12 (Nov 14): Scientific visualization
- * Week 13 (Nov 28): Advanced topics
- * Week 14 (Dec 5): Group presentations
- * Week 15 (Dec 12): TBD
+ * How are files laid out?
+ * What is in our operational palette?
+ * Basics of using Javascript, Python, and writing JSON
+ * Basic quantitative visualizations
+
+---
+
+## Weeks 6-10
+
+ * Distributions of values in different dimensions
+ * Simple interactivity 
+ * Reactive programming
+ * Colors, images
+ * Comparisons across datasets
+
+---
+
+## Weeks 11-15
+
+ * Scientific Visualization
+ * Alternative visualization platforms
+ * Dashboarding
+ * Group projects
 
 notes:
 Toward the end of class we are going to have a slightly more free-form set of
@@ -178,7 +220,8 @@ simply be a "performance" of coding, but instead an opportunity to learn.
 
 ## Grading
 
- * 70% Weekly assignments in prose or code form
+ * 40% Standard assignments in prose or code form
+ * 30% Weekly visualization reports
  * 30% Final project
 
 notes:
@@ -191,12 +234,22 @@ group project that touches on coding as well as visual design.
 
 ---
 
+## Weekly Assignments
+
+Every week, you are to turn in a visualization you have found in the media
+(newspapers, magazines, online journalism.)
+
+Each week, one of you will at random be asked to describe the visualization to the class.
+
+---
+
 ## Assignments
 
  * Weekly, assigned in class, collected following class
  * Prose assignments: deconstruction or analysis of a visualization or a dataset.
- * Coding assignments: Jupyter notebooks following step by step through
-   collection and processing of data and the visualization of that data
+ * Coding assignments: Jupyter/JSMD/etc notebooks following step by step
+   through collection and processing of data and the visualization of that
+   data
 
 ---
 
@@ -247,8 +300,8 @@ the iSchool.
  * [jupyterhub.ischool.illinois.edu](https://jupyterhub.ischool.illinois.edu/)
  * Please store your notebooks on- and off-site
  * Submissions will be via `nbgrader`
- * Data will be available at `/home/shared/spr18-is590dv/data/`
- * Previous lectures will be in `/home/shared/spr18-is590dv/fall2018/`
+ * Data will be available at `/home/shared/fall19-is590dv/data/`
+ * Previous lectures will be in `/home/shared/fall19-is590dv/fall2019/`
  * You will have access to conda, etc, but I may rebuild images to add packages.
 
 notes:
@@ -279,9 +332,9 @@ submission.
 
 ## Slack
 
- * Team is at `lis590dv-fall2018.slack.com`
+ * Team is at `is590dv-fall2019.slack.com`
    * `#general` : General announcements
-   * `#assignments` : Help with assignments
+   * `#classwork` : Help with assignments
    * `#help` : General help with Python, Javascript, visualization, etc
    * `#lectures` : During lectures, post links, comments, questions here
  * Use the `@` sign appropriately: `@[person]`, `@here`, `@channel`
@@ -300,10 +353,10 @@ feedback.  However, please do behave in a professional fashion.
 
 ## Github
 
- * Course repo is at [UIUC-iSchool-DataViz/fall2018](https://github.com/UIUC-iSchool-DataViz/fall2018/)
- * Automatically built to [uiuc-ischool-dataviz.github.io/fall2018/](https://uiuc-ischool-dataviz.github.io/fall2018/)
+ * Course repo is at [UIUC-iSchool-DataViz/fall2019](https://github.com/UIUC-iSchool-DataViz/fall2019/)
+ * Automatically built to [uiuc-ischool-dataviz.github.io/fall2019/](https://uiuc-ischool-dataviz.github.io/fall2019/)
  * Lecture notes will be placed there, and available in your JupyterHub
-   instances in `shared/sp18-is590dv/fall2018`
+   instances in `shared/fall19-is590dv/fall2019`
  * Copy the notebooks to your directory before using them.
  * Supplemental materials can be found at [UIUC-iSchool-DataViz/support-files](https://github.com/UIUC-iSchool-DataViz/support-files)
 
@@ -559,3 +612,50 @@ and context, see his page http://www-personal.umich.edu/~mejn/election/2008/ .
    * Computational methods should include source code
 
 ---
+
+## Let's Get Started with Iodide!
+
+ 1. Create a [github](https://github.com/) account if you do not have one
+ 1. Visit [iodide.io](https://iodide.io/) to log in to iodide.
+ 1. Create a new notebook
+
+---
+
+## Basics of jsmd
+
+Iodide uses a system called `jsmd` for describing the code and narrative presented.  It intersperses different types of "cells" in a text entry box.
+
+Each cell is delineated by the prefix `%%` and the type of cell.  For instance, this would be a javascript cell followed by a markdown cell:
+
+```
+%% js
+var a = [1, 2, 3]
+%% md
+Hi there! *This is markdown*.
+```
+
+---
+
+## Types of jsmd cells
+
+These are the types of cells you can use:
+
+ * `js` is Javascript code
+ * `py` for python code (more on that later)
+ * `md` for Markdown
+ * `css` for CSS styles
+ * `fetch` to retrieve data, files, or javascript libraries
+ * `raw` for raw text, ignored by Iodide
+
+---
+
+## Material to Cover
+
+We'll cover a few basics of Javascript and Python.
+
+ 1. Javascript types: strings, arrays, functions, and objects
+ 1. Python types: arrays, lists, numbers
+
+---
+
+Let's go!

@@ -14,6 +14,21 @@ of visualization, and techniques for aggregation and interpretation of data
 through visualization.Particular attention will be paid to the Python
 ecosystem and multi-dimensional quantitative datasets. 
 
+# Land Acknowledgment
+
+As a land-grant institution, the University of Illinois at Urbana-Champaign has
+a responsibility to acknowledge the historical context in which it exists. In
+order to remind ourselves and our community, we will begin this event with the
+following statement. We are currently on the lands of the Peoria, Kaskaskia,
+Peankashaw, Wea, Miami, Mascoutin, Odawa, Sauk, Mesquaki, Kickapoo, Potawatomi,
+Ojibwe, and Chickasaw Nations. It is necessary for us to acknowledge these
+Native Nations and for us to work with them as we move forward as an
+institution. Over the next 150 years, we will be a vibrant community inclusive
+of all our differences, with Native peoples at the core of our efforts.
+
+[More information can be found on the Chancellor's
+Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
+
 ## Course Overview
 
 This course is designed to give practical advice to students on
@@ -76,9 +91,10 @@ an analysis and visualization package for volumetric data,
 qualitative visualization of data from several disciplines.
 
 # Library Resources
-| http://www.library.illinois.edu/lis/
-| lislib@library.illinois.edu 
-| Phone: (217) 300-8439
+
+| http://www.library.illinois.edu/lis/ |
+| lislib@library.illinois.edu          |
+| Phone: (217) 300-8439                |
 
 # Writing and Bibliographic Style Resources
 The campus-wide Writers Workshop provides free consultations. For more
@@ -178,18 +194,18 @@ assignment (or in the case of emergencies, as soon as practicable).
 
 **Grading Scale:**
 
-| 94-100 = A
-| 90-93 = A-
-| 87-89 = B+
-| 83-86 = B
-| 80-82 = B-
-| 77-79 = C+
-| 73-76 = C
-| 70-72 = C-
-| 67-69 = D+
-| 63-66 = D
-| 60-62 = D-
-| 59 and below = F
+| 94-100       | A
+| 90-93        | A-
+| 87-89        | B+
+| 83-86        | B
+| 80-82        | B-
+| 77-79        | C+
+| 73-76        | C
+| 70-72        | C-
+| 67-69        | D+
+| 63-66        | D
+| 60-62        | D-
+| 59 and below | F
 
 ### Incompletes
 
@@ -214,20 +230,20 @@ course outline below is subject to some flexibilty; students will be encouraged
 to provide feedback on the topics covered, particularly toward the end.  Topics
 that are of particular interest will be emphasized.
 
- * Week 1 (Jan 22): Introduction, syllabus, examples, and some basics
- * Week 2 (Jan 29): Operational palette, structured python, and files
- * Week 3 (Feb 5): Quantitative plots, plot components
- * Week 4 (Feb 12): Histograms and distributions
- * Week 5 (Feb 19): R and ggplot
- * Week 6 (Feb 26): Images: color, colormaps
- * Week 7 (Mar 5): Comparisons between datasets
- * Week 8 (Mar 12): Comparisons between different datasets
- * Week 9 (Mar 26): Network visualization
- * Week 10 (Apr 2): Principles of interactive visualization
- * Week 11 (Apr 9): Interactive visualization with Python
- * Week 12 (Apr 16): Scientific visualization
- * Week 13 (Apr 23): Advanced topics
- * Week 14 (Apr 30): Group presentations
+ * Week 1: Introduction, syllabus, examples, and some basics
+ * Week 2: Operational palette, structured python, and files
+ * Week 3: Quantitative plots, plot components
+ * Week 4: Histograms and distributions
+ * Week 5: R and ggplot
+ * Week 6: Images: color, colormaps
+ * Week 7: Comparisons between datasets
+ * Week 8: Comparisons between different datasets
+ * Week 9: Network visualization
+ * Week 10: Principles of interactive visualization
+ * Week 11: Interactive visualization with Python
+ * Week 12: Scientific visualization
+ * Week 13: Advanced topics
+ * Week 14: Group presentations
 
 ## Emergency Response: Run, Hide, Fight
 
