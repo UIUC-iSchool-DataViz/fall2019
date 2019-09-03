@@ -11,7 +11,7 @@ historical and modern techniques for visualizing data, drawing on
 quantitative, statistical, and network-focused datasets. Topics will include
 construction of communicative visualizations, the modern software ecosystem
 of visualization, and techniques for aggregation and interpretation of data
-through visualization.Particular attention will be paid to the Python
+through visualization. Particular attention will be paid to the Python
 ecosystem and multi-dimensional quantitative datasets. 
 
 # Land Acknowledgment
@@ -50,19 +50,17 @@ installations, and will be encouraged to participate in class.  Homework will
 be assigned and collected utilizing the Jupyter nbgrader extension or through
 other methods specified at time of submission.
 
-## Pre- and Co-requisites
-
-None, although basic Python programming experience is assumed.  A brief
-introduction to Python will be presented during the course.
-
-# Course Overview
-
 The central themes of the course are:
 
 1. What are the components of an effective visualization of quantitative data?
 2. What tools and ecosystems are available for visualizing data?
 3. What systems can be put in place to generate visualizations rapidly and with
    high-fidelity representation?
+
+## Pre- and Co-requisites
+
+None, although basic Python programming experience is assumed.  A brief
+introduction to Python will be presented during the course.
 
 # Course Materials
 
@@ -216,17 +214,17 @@ the student’s academic advisor with the School’s records representative. Mor
 information on incompletes is available here:
 <http://webdocs.ischool.illinois.edu/registration/incomplete_grade_form.pdf>
 
-### Late Assignments
+### Attendance Policy
 
 Students are required to attend each class, and if they are unable to do so
-much notify the instructor and TA in advance and request an excused absence.
+must notify the instructor and TA in advance and request an excused absence.
 Participation in class -- in the form of comments, questions, and discussion --
 is expected.
 
 # Semester Calendar
 
 This is the first semester that this course is being taught.  As such, the
-course outline below is subject to some flexibilty; students will be encouraged
+course outline below is subject to some flexibility; students will be encouraged
 to provide feedback on the topics covered, particularly toward the end.  Topics
 that are of particular interest will be emphasized.
 
