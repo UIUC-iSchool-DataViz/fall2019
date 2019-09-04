@@ -692,6 +692,8 @@ When we are examining data, what can we look for?
 
 ## Example: Geometric Object
 
+<div class="left" data-markdown="true">
+
 | v1 | v2 | cat |
 |:-|:-|-:-|
 |8.5|-9| r |
@@ -703,12 +705,15 @@ When we are examining data, what can we look for?
 |-2.5|-6|b|
 |-1.5|-7|b|
 | ... | ... | ... | 
-<!-- .element class="left" -->
+
+</div>
 
 ---
 
 ## Example: Geometric Object
 
+<div class="left" data-markdown="true">
+
 | v1 | v2 | cat |
 |:-|:-|-:-|
 |8.5|-9| r |
@@ -720,7 +725,8 @@ When we are examining data, what can we look for?
 |-2.5|-6|b|
 |-1.5|-7|b|
 | ... | ... | ... | 
-<!-- .element class="left" -->
+
+</div>
 
 <!-- .slide: data-background-image="images/mushroom.svg" data-background-size="30% auto" data-background-position="right 20% bottom 50%" -->
 
@@ -802,6 +808,12 @@ components of its representation.
 <iframe width="1024" height="576"
 src="https://www.youtube.com/embed/kY-pUxKQMUE" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+## Just to remove any ambiguity
+
+Don't do this!
 
 ---
 
