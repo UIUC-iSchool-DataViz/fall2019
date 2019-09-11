@@ -5,7 +5,9 @@ layout: lecture
 <!-- .slide: class="titleslide" -->
 
 # Data Visualization
+
 <div style="height: 6.0em;"></div>
+
 ## Matthew Turk
 ## Fall 2019
 ## Lecture 3
