@@ -8,5 +8,9 @@ This is the course website for {{site.data.class.course.name}}, instructed by
 Below, you will find the materials for each week, as well as a syllabus that
 includes contact information and a course outline.
 
-Additionally, I have prepared a [guide for getting started](helpful_setup.md)
-that will help you ensure you will get the most out of this course.
+Some handy references you might appreciate:
+
+ * [matplotlib tutorial](https://matplotlib.org/tutorials/index.html)
+ * [python tutorial](https://docs.python.org/3.6/tutorial/)
+ * [Effective Computation in Physics](https://www.oreilly.com/library/view/effective-computation-in/9781491901564/) by Scopatz & Huff (available through Safari at UIUC)
+  
