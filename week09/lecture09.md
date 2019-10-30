@@ -27,6 +27,8 @@ https://vimeo.com/187740441
 
 ## Today - and assignment
 
+<div class="mediumtext" data-markdown>
+
 We will be ending early for the iSchool Research Showcase.
 
 You will have an assignment for this presentation, to be turned in by class
@@ -49,6 +51,8 @@ about half a page and include a description of the discovery
 presented, its context, and a reasonable discussion of how
 visualization was used in the process.
 
+</div>
+
 ---
 
 ## Final Project
@@ -67,6 +71,8 @@ You will have three components:
 
 ## Final Project: Part 1
 
+<div class="mediumtext" data-markdown>
+
 This will be graded individually.  Due by class on November 20, submitted via
 Moodle.  Submit in a Jupyter notebook.
 
@@ -83,9 +89,13 @@ Moodle.  Submit in a Jupyter notebook.
  * Summarize the characteristics of the dataset in words: what does it
    represent, what are the fields/columns/rows, what data types are they, etc
 
+</div>
+
 ---
 
 ## Final Project: Part 1 (cont)
+
+<div class="mediumtext" data-markdown>
 
 Your datasets need to be submitted as well.  To do this, include this
 information in your Jupyter notebook:
@@ -96,9 +106,13 @@ information in your Jupyter notebook:
  * What is the license of the dataset?  What are we allowed to do with it?
  * How big is it in file size and in items?
 
+</div>
+
 ---
 
 ## Final Project: Part 2
+
+<div class="mediumtext" data-markdown>
 
 This will be graded per group.  Submit in a Jupyter notebook or in a series of
 vega-lite visualizations.
@@ -118,9 +132,13 @@ vega-lite visualizations.
     * Annotate and narrate particular pieces of interest (if there are any)
     * Use standard visual representations and augment these if necessary
 
+</div>
+
 ---
 
 ## Final Project: Part 3
+
+<div class="mediumtext" data-markdown>
 
 You will submit this as your final project and will present it to the class.
 
@@ -138,6 +156,8 @@ Some possible ways to approach this:
  * Jupyter notebook (voila)
  * RShiny
  * Raw HTML / RevealJS / slides.com
+
+</div>
 
 ---
 
