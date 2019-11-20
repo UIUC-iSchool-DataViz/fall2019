@@ -297,7 +297,7 @@ svg.selectAll("circle").data(dataset).enter()
    .append("circle")
    .attr("cx", d => d.x)
    .attr("cy", d => d.y)
-   .attr("radius", d => d.radius)
+   .attr("r", d => d.radius)
    .style("fill", "black");
 ```
 
@@ -310,7 +310,7 @@ What does this do?
 We will mostly use the objects
 
  * [`rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) -- which has `x`, `y`, `width` and `height` 
- * [`circle`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle) -- which has `cx`, `cy`, and `radius`
+ * [`circle`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle) -- which has `cx`, `cy`, and `r`
  * [`line`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line) -- which has `x1`, `x2`, `y1` and `y2`.
 
 Each of these objects can be controlled in style, appearance, position, etc, according to standard SVG and CSS rules.
